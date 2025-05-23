@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="465.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.chatappfinalexam.ServerController">
+   <children>
+      <Label layoutX="25.0" layoutY="24.0" prefHeight="29.0" prefWidth="131.0" text="Server Side">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="serverArea" layoutX="25.0" layoutY="68.0" prefHeight="302.0" prefWidth="596.0" />
+      <TextField fx:id="textClientName" layoutX="25.0" layoutY="387.0" prefHeight="26.0" prefWidth="596.0" promptText="Enter new client name" />
+      <Button fx:id="btnAddClient" layoutX="25.0" layoutY="424.0" mnemonicParsing="false" onAction="#btnAddClientOnAction" prefHeight="26.0" prefWidth="596.0" text="Add new Client" />
+   </children>
+</AnchorPane>
